@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: rgb(171, 171, 171);
+}
+.main {
+  /* margin-top: 50px; */
+  width: 500px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  margin: 50px auto;
+  position: relative;
+}
+h1 {
+  width: 250px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: azure;
+}
+/* .inputs{
+    margin: 30px auto;
+} */
+input {
+  margin: 60px 0px 30px 50px;
+  align-items: center;
+  padding: 10px 150px 10px 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  border-bottom: 1px rgb(122, 122, 255) solid;
+}
+input:focus {
+  outline: none;
+}
+#reg-btn {
+  padding: 15px 30px;
+  bottom: 20px;
+  left: 200px;
+  position: absolute;
+  background-color: rgb(176, 192, 255);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+button:active {
+  padding: 16px 31px;
+  background-color: rgb(151, 170, 249);
+}
